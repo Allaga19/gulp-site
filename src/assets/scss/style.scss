@@ -1,0 +1,36 @@
+// body styles
+body {
+	width: 1250px;
+	margin: 0 auto;
+}
+h1 {
+	font-size: 25px;
+}
+/* header*/
+.header {
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	width: 1250px;
+	padding: 20px;
+	margin: 0 auto;
+	font-size: 25px;
+	background-color: blue;
+	color: #fff;
+		// .header__subtitle
+		&__subtitle {
+			font-size: 20px;
+		}
+		// .header__link
+		&__link {
+			color: blue;
+			background-color:#fff;
+			font-size: 18px;
+			padding: 5px;
+			text-decoration: none;
+			margin-left: 20px;
+		}
+}
+.main {
+	margin-top: 100px;
+}
